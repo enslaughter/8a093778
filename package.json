@@ -1,0 +1,41 @@
+{
+  "name": "frontend-hiring-challenge",
+  "version": "1.0.0",
+  "description": "Leap test",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --openssl-legacy-provider",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "8.1.0",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "0.23.*",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
